@@ -1,7 +1,7 @@
 .domains {
   display: flex;
   justify-content: center;
-  background-image: url('../../public/wallpaper.jpg');
+  background-image: url('../../assets/wallpaper.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -57,7 +57,7 @@
   background-position: top left;
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: url('../../public/giphy.webp');
+  background-image: url('../../assets/giphy.webp');
 }
 
 .event-card a {
@@ -86,7 +86,7 @@
   position: absolute;
   top: 0; left: 0;
   width: 99%; height: 99%;
-  background-image: url('../../public/cyber-sec.jpg');
+  background-image: url('../../assets/cyber-sec.jpg');
   filter: blur(5px);
   border-radius: 20px;
   background-position: center;
@@ -177,7 +177,7 @@
   color: transparent;
   font-size: 2rem;
   font-weight: bold;
-  background: url('../../public/giphy.webp');
+  background: url('../../assets/giphy.webp');
   background-size: contain;
   background-position: top left;
   background-clip: text;
