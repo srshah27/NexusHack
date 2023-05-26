@@ -2,9 +2,10 @@
   margin: 0;
   line-height: calc(1em + 0.5rem);
   font-family: 'Supreme', sans-serif;
+  box-sizing: border-box;
 }
 
-body{
+body {
   background: #000;
 }
 
@@ -67,6 +68,10 @@ strong {
   color: var(--clr-indigo);
 }
 
-.removed{
+.removed {
   display: none !important;
 }
+
+/* section {
+  border: 1px solid red;
+} */
