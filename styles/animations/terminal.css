@@ -27,7 +27,7 @@
 
 /* background affect for body */
 
-body::after {
+/* body::after {
   content: "";
   opacity: 1;
   position: absolute;
@@ -42,7 +42,7 @@ body::after {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 5000ms;
-}
+} */
 
 .terminal__text {
   display: block;

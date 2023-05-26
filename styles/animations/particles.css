@@ -18,8 +18,9 @@ canvas {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('../../public/wallpaper.jpg');
-  filter: blur(8px);
+  background-image: url('../../public/hero-bg.webp');
+  filter: blur(2px);
+  opacity: 0.3;
   background-position: center;
   background-size: cover;
   z-index: -99;
