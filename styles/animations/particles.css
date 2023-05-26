@@ -20,7 +20,7 @@ canvas {
   height: 100vh;
   background-image: url('../../public/hero-bg.webp');
   filter: blur(2px);
-  opacity: 0.3;
+  opacity: 0.8;
   background-position: center;
   background-size: cover;
   z-index: -99;
