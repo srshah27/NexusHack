@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(() => {
     terminal.classList.add('removed');
     document.body.classList.remove('scroll-lock');
-    console.log('removed');
   }, 6000);
 });
 
