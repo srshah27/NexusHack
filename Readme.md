@@ -1,4 +1,4 @@
-# [Nexus Hack]('https://nexushack.vercel.app')
+# [Nexus Hack](https://nexushack.vercel.app)
 
 This is the official Nexus Hack repository.
 
@@ -9,6 +9,7 @@ Nexus: ‘Hack your way through Infinite possibilities’ is a thrilling hackath
 ## Contact us
 
 Dr. Nilakshi Jain: +91 9967039388
+
 Email us at: [Research Cell](https://researchcell@sakec.ac.in)
 
 ## FAQ
@@ -25,4 +26,4 @@ Email us at: [Research Cell](https://researchcell@sakec.ac.in)
 
 ## Demo
 
-![Home Page]('https://github.com/srshah27/NexusHack/tree/master/assets/readme/Home.png')
+![Home Page](assets/readme/Home.png)
