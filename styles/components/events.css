@@ -1,28 +1,20 @@
 .domains {
   display: flex;
   justify-content: center;
-  background-image: url('../../assets/wallpaper.jpg');
+  background-image: url('../../assets/wallpaperflare.com_wallpaper\ \(2\).jpg');
   background-position: center;
   background-size: cover;
+  height: 100vh;
 }
 
 .domains-box {
-  margin-top: 10px;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 90%;
-  justify-content: center;
   font-size: 1.5rem;
-  /* outline: red solid 2px; */
 }
-
-/* .events-section-section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  outline: red solid 2px;
-} */
 
 .parent {
   display: grid;
@@ -44,6 +36,7 @@
   background-position: 50% 50%;
   justify-content: center;
   border: 2px gray solid;
+  margin: 0.5rem;
 }
 
 
@@ -175,7 +168,7 @@
 .text {
   cursor: pointer;
   color: transparent;
-  font-size: 2rem;
+  font-size: var(--size-4xl);
   font-weight: bold;
   background: url('../../assets/giphy.webp');
   background-size: contain;
@@ -185,10 +178,16 @@
 }
 
 .text:hover {
-  background: none;
-  background-color: black;
+  /* background: none; */
+  /* background-color: black; */
   background-size: contain;
   background-position: top left;
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+@media (min-width: 475px) {
+  .text {
+    font-size: var(--size-6xl);
+  }
 }

@@ -6,6 +6,7 @@
   padding-bottom: 2rem;
   position: relative;
   z-index: 9999;
+  height: 10svh;
 }
 
 .header__menu {
