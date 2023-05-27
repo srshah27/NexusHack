@@ -9,6 +9,7 @@
   gap: 1.5rem;
   z-index: 2;
   height: calc(100svh - (10svh + 7rem));
+  width: 100svw;
 }
 
 .hero__img{
