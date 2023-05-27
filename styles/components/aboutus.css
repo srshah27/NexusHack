@@ -1,5 +1,5 @@
 .about-us {
-  background-image: url('../../assets/hero-bg.webp');
+  background: url('../../assets/space.jpg');
   background-position: center center;
   background-size: cover;
   padding: 80px 60px;
@@ -45,7 +45,7 @@
 
 .about-us-wrapper {
   padding: 3rem 3rem;
-  background: url('../../assets/stars-universe.gif');
+  background-image: url('../../assets/stars2.jpg');
 }
 
 .about-us-divider {
