@@ -106,7 +106,7 @@
   grid-area: 2 / 7 / 3 / 9;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .events-section {
     display: flex;
     width: 95%;
