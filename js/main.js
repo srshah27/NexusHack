@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // preloader.style.display = 'none';
 
   // // Add a 'loaded' class to the body to trigger the CSS rule
+  window.scrollTo(0, 0);
   const terminal = document.querySelector('.terminal');
   setTimeout(() => {
     terminal.classList.add('removed');
