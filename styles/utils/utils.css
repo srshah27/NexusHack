@@ -49,6 +49,10 @@
     0 10px 10px rgba(225, 29, 72, 0.22), 0 0 120px -10px var(--clr-rose);
 }
 
+.scroll-lock {
+  overflow-y: hidden;
+}
+
 /* @media (min-width: 475px) {
   .container {
     max-width: 475px;
