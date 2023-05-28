@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="./styles/components/hero-new.css" />
   <link rel="stylesheet" href="./styles/components/events.css" />
   <link rel="stylesheet" href="./styles/components/aboutus.css" />
+  <link rel="stylesheet" href="./styles/components/sponsors.css" />
+  <link rel="stylesheet" href="./styles/components/faq.css" />
 
   <link rel="stylesheet" href="./styles/animations/particles.css" />
   <link rel="stylesheet" href="./styles/animations/terminal.css" />
@@ -29,9 +31,9 @@
 
   <!-- terminal affect -->
   <div class="terminal">
-      <h1 class="terminal__text delay1">Hello, world!</h1>
-      <p class="terminal__text delay2">> Welcome to Nexus Hack.</p>
-      <p class="terminal__text delay3">> Get ready for the multiverse of Hacking.</p>
+    <h1 class="terminal__text delay1">Hello, world!</h1>
+    <p class="terminal__text delay2">> Welcome to Nexus Hack.</p>
+    <p class="terminal__text delay3">> Get ready for the multiverse of Hacking.</p>
   </div>
 
   <div class="bg-image" id="bg-img"></div>
@@ -147,16 +149,96 @@
         </div>
       </div>
     </section>
+
+    <section id="faq">
+      <div class="faq-section">
+      <div class="text">
+        <h1 class="faq-tit">Frequently Asked Questions</h1>
+      </div>
+      <div class="faq-container">
+        <div class="faq active">
+          <h3 class="faq-title">
+            What is a hackathon?
+          </h3>
+
+          <p class="faq-text">
+            A collaborative event where participants work together to create innovative projects within a set timeframe.
+          </p>
+
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            How long does a typical hackathon last?
+          </h3>
+          <p class="faq-text">
+            Hackathons can range from a few hours to several days, depending on the event.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            Who can participate in a hackathon?
+          </h3>
+          <p class="faq-text">
+            Hackathons are usually open to individuals or teams with various backgrounds and skillsets, including developers, designers, and domain experts.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            What do participants create at a hackathon?
+          </h3>
+          <p class="faq-text">
+            Participants create projects that can be software-based, hardware-based, or a combination of both, often focusing on solving a specific problem or addressing a particular theme.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="faq">
+          <h3 class="faq-title">
+            Are hackathons competitive?
+          </h3>
+          <p class="faq-text">
+            Some hackathons have competitive elements with prizes for the best projects, while others may focus more on collaboration and learning rather than competition.
+          </p>
+          <button class="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- js files -->
   <script type="module" src="./js/main.js" defer></script>
   <script type="module" src="./js/particles.js"></script>
-
   <!-- cdn links -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+  <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+  <script src="./script.js"></script>
 
 </body>
 

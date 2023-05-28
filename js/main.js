@@ -20,3 +20,12 @@ $(document).ready(function () {
     $("#bg-img").css("opacity", 1 - $(window).scrollTop() / ($('#bg-img').height() * 0.8));
   });
 });
+
+// faq
+const toggles = document.querySelectorAll('.faq-toggle')
+
+toggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+        toggle.parentNode.classList.toggle('active')
+    })
+})
