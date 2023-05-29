@@ -1,0 +1,94 @@
+#sponsors {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--size-4xl);
+  padding: 3rem 4rem;
+  max-height: 100vh;
+}
+
+.sponsor-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/Design.jpg');
+  opacity: 0.8;
+  border-radius: 30px;
+  object-fit: contain;
+  background-position: center;
+  background-size: 100% auto;
+  /* aspect-ratio: 16/9; */
+  /* background-repeat: no-repeat; */
+  /* margin-top: var(--size-4xl); */
+}
+
+.logo-wrapper {
+  width: 100%;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: space-around;
+  margin: var(--size-sm);
+}
+
+
+.logo-row img {
+  border-radius: 100px;
+  padding: var(--size-sm);
+  height: 10%;
+  width: 10%;
+}
+
+.logo-wrapper {
+  max-width: 100%;
+  margin-top: var(--size-xl);
+  margin-bottom: var(--size-xl);
+}
+
+.sponsor-title {
+  margin: var(--size-4xl);
+}
+
+.sponsor-subtitle {
+  margin-top: var(--size-lg);
+  margin-bottom: var(--size-lg);
+  text-align: center;
+}
+
+.golden-text {
+  color: #D5AD6D;
+  background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213, 173, 109, 1) 0%, rgb(213, 173, 109) 26%, rgb(226, 186, 120) 35%, rgb(245, 204, 138) 45%, rgb(255, 203, 120) 61%, rgb(253, 210, 140) 100%);
+  background: -o-linear-gradient(transparent, transparent);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media screen and (max-width: 768px) {
+  .logo-row {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .logo-row img {
+    padding: var(--size-sm);
+    height: 40%;
+    width: 40%;
+  }
+
+  .sponsor-title {
+    margin: var(--size-xl);
+    font-size: var(--size-xl);
+  }
+
+  .sponsor-wrapper {
+    background-size: auto 100%;
+  }
+}
