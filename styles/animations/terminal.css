@@ -10,7 +10,6 @@
   padding: 2rem;
   overflow: hidden;
   color: #80f58a;
-  font: var(--size-lg);
   text-shadow: 0 0 13px #35e279;
   filter: blur(0.7px);
   z-index: 99999;
@@ -57,6 +56,21 @@ body.loaded .preloader {
   overflow: hidden;
   white-space: nowrap;
   text-align: center;
+  font-size: var(--size-2xl);
+
+  animation-name: writeText;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.terminal__title {
+  display: block;
+  margin: 0;
+  width: 0px;
+  color: #20C20E;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  font-size: var(--size-4xl);
 
   animation-name: writeText;
   animation-duration: 2s;
@@ -96,8 +110,12 @@ body.loaded .preloader {
   }
 }
 
-@media screen and (max-width: 475px) {
-  .terminal {
+@media (max-width: 475px) {
+  .terminal__title {
+    font-size: var(--size-md);
+  }
+
+  .terminal__text {
     font-size: var(--size-sm);
   }
 }
