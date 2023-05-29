@@ -1,0 +1,10 @@
+.footer{
+  outline: red solid 1px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: red solid 1px;
+}

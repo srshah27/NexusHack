@@ -35,7 +35,7 @@
 }
 
 .faq.active {
-  background: url("../../assets/faq-text-bg.jpg");
+  background: url("../../assets/faq-text-bg-inverted.jpg");
   object-fit: cover;
   object-fit: cover;
   background-size: 100% 100%;
