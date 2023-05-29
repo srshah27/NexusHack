@@ -237,6 +237,7 @@
   background-position: top left;
   background-clip: text;
   -webkit-background-clip: text;
+  text-align: center;
 }
 
 .text:hover {

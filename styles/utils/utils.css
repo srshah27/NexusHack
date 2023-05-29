@@ -58,9 +58,15 @@
 .margin{
   margin: var(--size-sm);
 }
-/* .scroll-lock {
+
+@media (max-width: 768px) {
+  .sakec-logo{
+    height: var(--size-6xl);
+  }
+}
+.scroll-lock {
   overflow-y: hidden;
-} */
+}
 
 /* @media (min-width: 475px) {
   .container {
