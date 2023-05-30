@@ -31,7 +31,7 @@ font-family: 'Supreme', sans-serif;
   /* font-weight: 400; */
   font-weight: extra bold;
   font-size: 2.5rem;
-  
+
 }
 
 .bottom .footer__addr h2 {
@@ -90,6 +90,10 @@ font-family: 'Supreme', sans-serif;
 
 .bottom .nav__ul a {
   color: #999;
+}
+.bottom .nav__ul a:hover {
+  color: var(--clr-rose);
+  transition: ease all 0.8s;
 }
 
 .bottom .nav__ul--extra {
